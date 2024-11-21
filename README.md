@@ -13,3 +13,31 @@ To organize our thoughts and streamline the planning process, Param set up a Mir
 - [x] Find assets
 - [x] Write pseudocode
 - [x] Brainstorm level design
+
+### Game Mechanics
+To ensure a realistic and engaging hot air balloon simulation, we need to factor in the following elements:
+
+1. **Gravity**
+
+- Constant downward force requiring players to manage altitude effectively.
+- Increased fuel usage when counteracting gravity.
+2. **Wind**
+
+- Horizontal forces pushing the balloon in various directions.
+- Randomized gusts and directional shifts as difficulty increases.
+3. **Pressure and Altitude**
+
+- Lower atmospheric pressure at higher altitudes reduces lift capacity.
+- Adjustments in fuel consumption based on altitude changes.
+4. **Fuel Management**
+
+- Limited fuel requires strategic use to maintain altitude and direction.
+- Opportunities to refuel at checkpoints or during specific scenarios.
+5. **Temperature**
+
+- Colder air at higher altitudes or in certain environments affects balloon lift.
+- Temperature-based hazards like ice formation.
+6. **Obstacles**
+
+- Physical obstacles such as buildings, mountains, or trees.
+ - Environmental hazards like birds, storms, and lightning.
