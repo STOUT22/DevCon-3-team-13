@@ -1,0 +1,327 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.45f1 (a13dfa44d684) revision 10567162'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16106 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+S:/DevCon-3-team-13/DevConn#3-Team-13
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60391
+Successfully changed project path to: S:/DevCon-3-team-13/DevConn#3-Team-13
+S:/DevCon-3-team-13/DevConn#3-Team-13
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28304]  Target information:
+
+Player connection [28304]  * "[IP] 10.128.86.70 [Port] 0 [Flags] 2 [Guid] 3619421511 [EditorId] 3619421511 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SO8D3JAR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28304] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28304] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 13.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.45f1 (a13dfa44d684)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/DevCon-3-team-13/DevConn#3-Team-13/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007128 seconds.
+- Loaded All Assemblies, in  0.527 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.274 seconds
+Domain Reload Profiling: 803ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.695 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1298ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3555.
+Memory consumption went from 118.0 MB to 117.9 MB.
+Total: 3.977000 ms (FindLiveObjects: 0.353500 ms CreateObjectMapping: 0.183000 ms MarkObjects: 3.332900 ms  DeleteObjects: 0.105400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91127.818325 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Textures
+  artifactKey: Guid(130d1a983448ddf4da754fe65c11d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Textures using Guid(130d1a983448ddf4da754fe65c11d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd85d537f4ab8d35dded8920df5bae34c') in 0.004349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.144371 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Textures/V1_HotAirBalloon_Livery_1.png
+  artifactKey: Guid(e12000265fd2ac14c908080bb80f2602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Textures/V1_HotAirBalloon_Livery_1.png using Guid(e12000265fd2ac14c908080bb80f2602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '127b857002471a8f3ab3eaa448bcf4f5') in 0.107370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.445365 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Meshes
+  artifactKey: Guid(b55816f8d801f444a8b44e887c6717b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Meshes using Guid(b55816f8d801f444a8b44e887c6717b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ebd61ace3644efc8ab8ebca7fa010923') in 0.000804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.148278 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Meshes/V1_HotAirBalloon_Baskets.fbx
+  artifactKey: Guid(12208ef21ce0a1840945d3c0b2e7ede5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Meshes/V1_HotAirBalloon_Baskets.fbx using Guid(12208ef21ce0a1840945d3c0b2e7ede5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12dd4d9b244b80217eeec96a3d1aff48') in 0.438613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 2.224941 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Materials
+  artifactKey: Guid(8eb4c9a4b5e7f9144ae3ce42116fea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Materials using Guid(8eb4c9a4b5e7f9144ae3ce42116fea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dac40936b87a3048ded01153c8721d47') in 0.000869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.113714 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Materials/V1_HotAirBalloon_Elements.mat
+  artifactKey: Guid(680233eb20d1724419df57b356948643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Materials/V1_HotAirBalloon_Elements.mat using Guid(680233eb20d1724419df57b356948643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b3b02f10d10dd64f4747945feef56a5') in 0.130862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Materials/V1_HotAirBalloon_Livery_6.mat
+  artifactKey: Guid(78bf9ac5b130b124c9a35e3a650b41fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Materials/V1_HotAirBalloon_Livery_6.mat using Guid(78bf9ac5b130b124c9a35e3a650b41fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa9a59378bd33b2f36670357a41d7942') in 0.022142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Materials/V1_HotAirBalloon_Livery_3.mat
+  artifactKey: Guid(eb80c9aedb629324a8acf3d1c6120c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Models/Materials/V1_HotAirBalloon_Livery_3.mat using Guid(eb80c9aedb629324a8acf3d1c6120c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b944ecbcecad12ea422c93caa123351b') in 0.013982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 29.745021 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Graphics/Materials
+  artifactKey: Guid(4c8a6633a2bb24b4d938f2846dc16de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Graphics/Materials using Guid(4c8a6633a2bb24b4d938f2846dc16de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f759c22bff9de8388b6c0644f64394f9') in 0.000801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.114751 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Graphics/Materials/Vehicle_Elements.mat
+  artifactKey: Guid(cb7e3b2b1c8f0d74ba0c1fa358b08b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Graphics/Materials/Vehicle_Elements.mat using Guid(cb7e3b2b1c8f0d74ba0c1fa358b08b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3357240d825ba5bc3ef4322d3ee57666') in 0.010229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.000046 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Scenes
+  artifactKey: Guid(9a0cc71a911e7aa4880ae6c916a18791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Scenes using Guid(9a0cc71a911e7aa4880ae6c916a18791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a96c43c4181a8e088696c7a617dbfd29') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.296549 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Scenes/Built-In_DemoScene.unity
+  artifactKey: Guid(0ab8ea72764f7d54aa18d0d9a77e7c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Scenes/Built-In_DemoScene.unity using Guid(0ab8ea72764f7d54aa18d0d9a77e7c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74d5b3875aba9d87dcaecb6495fccd98') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.780846 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Scenes/HDRP_DemoScene.unity
+  artifactKey: Guid(84dae7ba613cdd349a8c29dc5b32468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Scenes/HDRP_DemoScene.unity using Guid(84dae7ba613cdd349a8c29dc5b32468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cbf985d32f32995ef5c482457adfdd40') in 0.000633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.061973 seconds.
+  path: Assets/UNDERPOLY - Free Hot-Air Balloons/Scenes/URP_DemoScene.unity
+  artifactKey: Guid(fd961b08693efe4478c9e7662ad3bc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UNDERPOLY - Free Hot-Air Balloons/Scenes/URP_DemoScene.unity using Guid(fd961b08693efe4478c9e7662ad3bc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a913d77c5301d5e9886b3c04a04c62fd') in 0.000663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
