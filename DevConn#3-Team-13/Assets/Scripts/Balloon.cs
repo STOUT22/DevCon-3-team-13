@@ -72,10 +72,17 @@ public class HotAirBalloon : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && fuelRemaining > 0f)
         {
-            internalAirTemperature += burnerHeatOutput * Time.deltaTime / (envelopeVolume * gasConstant);
+            // Adjust heating power
+            float heatAdded = burnerHeatOutput * Time.deltaTime;
+            internalAirTemperature += heatAdded / (envelopeVolume * gasConstant);
+
             fuelRemaining -= fuelConsumptionRate * Time.deltaTime;
+
+            // Debug the temperature increase
+            Debug.Log($"Burner Active: Internal Temp = {internalAirTemperature}, Fuel Remaining = {fuelRemaining}");
         }
     }
+
 
     private void HandleVent()
     {
@@ -88,13 +95,23 @@ public class HotAirBalloon : MonoBehaviour
             ventOpening = Mathf.Clamp01(ventOpening - Time.deltaTime); // Decrease vent opening
         }
 
-        internalAirTemperature -= ventOpening * heatLossRate * Time.deltaTime / envelopeVolume;
+        // Apply heat loss when venting
+        internalAirTemperature -= (ventOpening * heatLossRate + Time.deltaTime) / envelopeVolume;
+
+        // Ensure internal air temperature does not fall below external air temperature
+        internalAirTemperature = Mathf.Max(internalAirTemperature, externalAirTemperature);
     }
+
+
 
     private void CalculateBuoyancyForce()
     {
         buoyancyForce = (externalAirDensity - internalAirDensity) * envelopeVolume * gravity;
+
+        // Debug forces
+        Debug.Log($"Buoyancy Force = {buoyancyForce}, Gravity Force = {gravityForce}, Net = {buoyancyForce - gravityForce}");
     }
+
 
     private void CalculateGravityForce()
     {
