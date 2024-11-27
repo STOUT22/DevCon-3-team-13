@@ -41,3 +41,44 @@ To ensure a realistic and engaging hot air balloon simulation, we need to factor
 
 - Physical obstacles such as buildings, mountains, or trees.
  - Environmental hazards like birds, storms, and lightning.
+
+ 
+
+# Research Breakdown
+
+## Environmental Factors
+- **Wind Speed**: Moderate at **5 m/s** (meters per second).
+- **Wind Direction**: Along the **Z-axis** (`Vector3.forward`).
+- **Air Pressure**: Standard sea-level pressure at **101,325 Pascals**.
+- **External Air Temperature**: **288.15 K** (15°C).
+- **Temperature Gradient**: Decrease in temperature with altitude at **0.0065 K/m**.
+
+## Balloon Factors
+- **Internal Air Temperature**: Starts at **373.15 K** (100°C).
+- **Envelope Volume**: **2,800 m³** (typical balloon volume).
+- **Internal Air Density**: **Dynamically calculated** using the ideal gas law.
+- **External Air Density**: **Dynamically calculated** using the ideal gas law.
+- **Buoyancy Force**: **Dynamically calculated**, depends on the air density difference.
+- **Gravity Force**: **Dynamically calculated**, depends on the balloon's total mass.
+- **Drag Force**: **Dynamically calculated**, influenced by wind speed and external air density.
+
+## Physical Properties
+- **Burner Heat Output**: **5,000 W** (Watts).
+- **Vent Opening**: Starts **fully closed (0)**; can range from **0 (closed)** to **1 (fully open)**.
+- **Fuel Consumption Rate**: **2 kg/s** (burner uses 0.1 kg per second).
+- **Heat Loss Rate**: **200 W**, due to venting and natural cooling.
+- **Drag Coefficient**: **0.5**, typical for a round object.
+- **Cross-Sectional Area**: **20 m²**, represents the balloon's surface facing wind resistance.
+
+## Rigidbody Settings
+- **Mass**: **500 kg**, includes basket, balloon fabric, burner, and passengers.
+- **Drag**: **0**, managed via custom scripting.
+- **Gravity**: **Enabled**.
+
+## Fuel
+- **Fuel Remaining**: Starts at **100 kg**, adjustable based on gameplay requirements.
+
+# Sources
+https://www.youtube.com/watch?v=iLKG9y20aOA
+
+https://www.real-world-physics-problems.com/hot-air-balloon-physics.html
