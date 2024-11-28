@@ -82,3 +82,7 @@ To ensure a realistic and engaging hot air balloon simulation, we need to factor
 https://www.youtube.com/watch?v=iLKG9y20aOA
 
 https://www.real-world-physics-problems.com/hot-air-balloon-physics.html
+
+#Controls
+"V" key to release the heat from ballon. (Go/Move Down)
+"Space-bar" to Gather heat in balloon using the burner. (Go/Move Up)
