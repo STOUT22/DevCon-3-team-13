@@ -126,7 +126,7 @@ Param polished the game, ensuring the hot air balloon mechanics ran smoothly and
 ## Challenges We Overcame
 - **Hot Air Balloon Mechanics:** Initially, the balloon ascended too slowly, descended too quickly, and couldn’t rise in time to avoid obstacles. Through collaboration and adjustments, we managed to fine-tune the mechanics for a smoother experience.
 - **Integrating Features:** Combining the start screen, UI elements, map design, and hot air balloon controls into a cohesive game required careful coordination and troubleshooting.
-- **Coding Complexity:** Ali’s alternative balloon code was a great backup and helped resolve some mechanical issues we encountered during development.
+- **Coding Complexity:** Alternative balloon code was a great backup and helped resolve some mechanical issues we encountered during development.
 
 ---
 
