@@ -80,9 +80,62 @@ To ensure a realistic and engaging hot air balloon simulation, we need to factor
 
 # Sources
 https://www.youtube.com/watch?v=iLKG9y20aOA
-
 https://www.real-world-physics-problems.com/hot-air-balloon-physics.html
 
-#Controls
+https://youtu.be/AqhnZz17amw?si=UkBAahx4qrpcZAct
+
+### How Hot Air Balloons Work
+Air, when it gets hot, likes to rise. It’s like the air is saying, "I’m too good for the ground!" So, inside the big colorful part of the balloon (that’s called the envelope), there’s a flame blasting heat. That hot air fills the balloon, and because hot air is lighter than cold air, it lifts the whole thing up into the sky. Science magic!
+
+The basket underneath is where people hang out. That’s where the fire comes from too, controlled by something called a burner. Want to go higher? Blast more fire and heat up the air! Want to come down? Let the air cool off a bit. The pilot can control that, like a sky wizard.
+
+#### Process
+Logan researched the mechanics of hot air balloons and shared the findings with Param, who translated them into the game code to control the balloon.
+
+We had to adjust the values during testing because the initial setup wasn’t working as intended.
+
+Issues we faced: the balloon ascended too slowly, descended too quickly, and couldn’t be sent back up fast enough to avoid obstacles.
+
+#### November 26, 2024
+Logan designed and implemented the start screen
+
+---
+
+### November 27, 2024
+Logan designed and implemented the prototype map and created obstacles for the balloon.
+
+---
+
+### November 28, 2024
+Ali created the UI for the game scene and developed an alternative code for the hot air balloon mechanics.
+
+---
+
+### December 4, 2024
+Param polished the game, ensuring the hot air balloon mechanics ran smoothly and functioned seamlessly.
+
+---
+
+## What We Learned
+- **Importance of Iteration:** Testing and tweaking values was crucial for getting the hot air balloon mechanics to work properly. It showed us the value of refining features through trial and error.
+- **Collaboration is Key:** By dividing tasks and leveraging each team member’s strengths, we were able to bring different aspects of the game together efficiently.
+- **Balancing Gameplay Elements:** We learned how small changes in physics parameters can drastically affect gameplay, emphasizing the need for precision and balance.
+
+---
+
+## Challenges We Overcame
+- **Hot Air Balloon Mechanics:** Initially, the balloon ascended too slowly, descended too quickly, and couldn’t rise in time to avoid obstacles. Through collaboration and adjustments, we managed to fine-tune the mechanics for a smoother experience.
+- **Integrating Features:** Combining the start screen, UI elements, map design, and hot air balloon controls into a cohesive game required careful coordination and troubleshooting.
+- **Coding Complexity:** Ali’s alternative balloon code was a great backup and helped resolve some mechanical issues we encountered during development.
+
+---
+
+## What We Could Do Better Next Time
+- **Early Testing:** Starting the testing phase earlier could have helped us identify issues with the hot air balloon mechanics sooner, saving time later.
+- **Better Communication:** While collaboration went well, more frequent updates could have streamlined the integration process across different game components.
+- **Documentation:** Keeping clearer documentation of code changes and design decisions would make debugging and future iterations smoother. 
+
+
+# Controls
 "V" key to release the heat from ballon. (Go/Move Down)
 "Space-bar" to Gather heat in balloon using the burner. (Go/Move Up)
